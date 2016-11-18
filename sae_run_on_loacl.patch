@@ -1,0 +1,259 @@
+Index: server/system/codeigniter/CodeIgniter.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- server/system/codeigniter/CodeIgniter.php	(revision 10985)
++++ server/system/codeigniter/CodeIgniter.php	(revision )
+@@ -59,6 +59,7 @@
+ set_error_handler('_exception_handler');
+ 
+ //---change-----------------------
++require(BASEPATH.'database/drivers/mysql/SaeObject.class.php');
+ require(BASEPATH.'database/drivers/mysql/saemysql.class.php');
+ 
+ /*
+\ No newline at end of file
+Index: server/system/database/drivers/mysql/SaeObject.class.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- server/system/database/drivers/mysql/SaeObject.class.php	(revision )
++++ server/system/database/drivers/mysql/SaeObject.class.php	(revision )
+@@ -0,0 +1,77 @@
++<?php
++
++// +----------------------------------------------------------------------
++// | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
++// +----------------------------------------------------------------------
++// | Copyright (c) 2010 http://thinkphp.cn All rights reserved.
++// +----------------------------------------------------------------------
++// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
++// +----------------------------------------------------------------------
++// | Author: luofei614 <www.3g4k.com>
++// +----------------------------------------------------------------------
++// $Id: SaeObject.class.php 2766 2012-02-20 15:58:21Z luofei614@gmail.com $
++class SaeObject {
++
++    protected $errmsg;
++    static $db;
++
++    //实现自动建表
++    public function __construct() {
++        $this->errmsg = Imit_L("_SAE_OK_");
++        static $inited = false;
++        //只初始化一次
++        if ($inited)
++            return;
++        if (extension_loaded('sqlite3')) {
++            self::$db = new ImitSqlite();
++        } else {
++            self::$db = get_class($this) == "SaeMysql" ? $this : new SaeMysql();
++            $this->createTable();
++        }
++        $inited = true;
++    }
++
++
++    //获得错误信息
++    public function errmsg() {
++        return $this->errmsg;
++    }
++
++    public function setAuth($accesskey, $secretkey) {
++
++    }
++
++    protected function createTable() {
++        $sql = file_get_contents(dirname(__FILE__).'/sae.sql');
++        $tablepre = C('DB_PREFIX');
++        $tablesuf = C('DB_SUFFIX');
++        $dbcharset = C('DB_CHARSET');
++        $sql = str_replace("\r", "\n",$sql);
++        $ret = array();
++        $num = 0;
++        foreach (explode(";\n", trim($sql)) as $query) {
++            $queries = explode("\n", trim($query));
++            foreach ($queries as $query) {
++                $ret[$num] .= $query[0] == '#' || $query[0] . $query[1] == '--' ? '' : $query;
++            }
++            $num++;
++        }
++        unset($sql);
++        foreach ($ret as $query) {
++            $query = trim($query);
++            if ($query) {
++                if (substr($query, 0, 12) == 'CREATE TABLE') {
++                    $name = preg_replace("/CREATE TABLE ([a-z0-9_]+) .*/is", "\\1", $query);
++                    $type = strtoupper(preg_replace("/^\s*CREATE TABLE\s+.+\s+\(.+?\).*(ENGINE|TYPE)\s*=\s*([a-z]+?).*$/isU", "\\2", $query));
++                    $type = in_array($type, array('MYISAM', 'HEAP')) ? $type : 'MYISAM';
++                    $query = preg_replace("/^\s*(CREATE TABLE\s+.+\s+\(.+?\)).*$/isU", "\\1", $query) .
++                        (mysql_get_server_info() > '4.1' ? " ENGINE=$type DEFAULT CHARSET=$dbcharset" : " TYPE=$type");
++                }
++                self::$db->runSql($query);
++            }
++        }
++    }
++
++}
++
++?>
+\ No newline at end of file
+Index: server/index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- server/index.php	(revision 10985)
++++ server/index.php	(revision )
+@@ -20,6 +20,14 @@
+ }
+ define ( 'ENVIRONMENT', get_env_setting () );
+ 
++if (! function_exists ( 'memcache_init' )) {
++    function memcache_init()
++    {
++        $mem = new Memcache();
++        $mem->connect("127.0.0.1", 11211);
++        return $mem;
++    }
++}
+ /*
+  * |---------------------------------------------------------------
+  * | PHP ERROR REPORTING LEVEL
+\ No newline at end of file
+Index: server/system/helpers/log_helper.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- server/system/helpers/log_helper.php	(revision 10985)
++++ server/system/helpers/log_helper.php	(revision )
+@@ -3,16 +3,7 @@
+ if ( ! function_exists('sae_log'))
+ {
+ 	function sae_log($msg) {
+-    static $is_debug = null;
+-    if (is_null($is_debug)) {
+-        preg_replace('@(\w+)\=([^;]*)@e', '$appSettings[\'\\1\']="\\2";', $_SERVER['HTTP_APPCOOKIE']);
+-        $is_debug = in_array($_SERVER['HTTP_APPVERSION'], explode(',', $appSettings['debug'])) ? true : false;
+-    }
+-    if ($is_debug)
+-        sae_set_display_errors(false);
+-    sae_debug($msg);
+-    if ($is_debug)
+-        sae_set_display_errors(true);
++
+ }
+ }
+ 
+\ No newline at end of file
+Index: server/system/database/drivers/mysql/mysql_driver.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- server/system/database/drivers/mysql/mysql_driver.php	(revision 10985)
++++ server/system/database/drivers/mysql/mysql_driver.php	(revision )
+@@ -315,11 +315,6 @@
+ 			//--change--
+ 			$str = $this->conn_id->escape($str, $this->conn_id);
+ 		}
+-		elseif (function_exists('mysql_escape_string'))
+-		{
+-			//--change--
+-			$str = mysql_escape_string($str);
+-		}
+ 		else
+ 		{
+ 			$str = addslashes($str);
+\ No newline at end of file
+Index: server/system/application/config/database.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- server/system/application/config/database.php	(revision 10985)
++++ server/system/application/config/database.php	(revision )
+@@ -1,61 +1,15 @@
+ <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+-/*
+-| -------------------------------------------------------------------
+-| DATABASE CONNECTIVITY SETTINGS
+-| -------------------------------------------------------------------
+-| This file will contain the settings needed to access your database.
+-|
+-| For complete instructions please consult the "Database Connection"
+-| page of the User Guide.
+-|
+-| -------------------------------------------------------------------
+-| EXPLANATION OF VARIABLES
+-| -------------------------------------------------------------------
+-|
+-|	['hostname'] The hostname of your database server.
+-|	['username'] The username used to connect to the database
+-|	['password'] The password used to connect to the database
+-|	['database'] The name of the database you want to connect to
+-|	['dbdriver'] The database type. ie: mysql.  Currently supported:
+-				 mysql, mysqli, postgre, odbc, mssql, sqlite, oci8
+-|	['dbprefix'] You can add an optional prefix, which will be added
+-|				 to the table name when using the  Active Record class
+-|	['pconnect'] TRUE/FALSE - Whether to use a persistent connection
+-|	['db_debug'] TRUE/FALSE - Whether database errors should be displayed.
+-|	['cache_on'] TRUE/FALSE - Enables/disables query caching
+-|	['cachedir'] The path to the folder where cache files should be stored
+-|	['char_set'] The character set used in communicating with the database
+-|	['dbcollat'] The character collation used in communicating with the database
+-|
+-| The $active_group variable lets you choose which connection group to
+-| make active.  By default there is only one group (the "default" group).
+-|
+-| The $active_record variables lets you determine whether or not to load
+-| the active record class
+-*/
+ 
+ $active_group = "default";
+ $active_record = TRUE;
+ 
+-// $db['default']['hostname'] = SAE_MYSQL_HOST_M;
+-// $db['default']['hostname_s'] = SAE_MYSQL_HOST_S;
+-// $db['default']['username'] = SAE_ACCESSKEY;
+-// $db['default']['password'] = SAE_SECRETKEY;
+-// $db['default']['database'] = 'app_'.$_SERVER['HTTP_APPNAME'] ;
+-// $db['default']['dbdriver'] = "mysql";
+-// $db['default']['dbprefix'] = "";
+-// $db['default']['pconnect'] = TRUE;
+-// $db['default']['db_debug'] = TRUE;
+-// $db['default']['cache_on'] = FALSE;
+-// //"storage" or "memcache"
+-// $db['default']['cache_method'] = 'memcache';
+-// $db['default']['cachedir'] = "sqlcache";
+-// $db['default']['char_set'] = "utf8";
+-// $db['default']['dbcollat'] = "utf8_general_ci";
+-// $db['default']['port'] = $_SERVER['HTTP_MYSQLPORT'];
++//$db['default']['hostname'] = 'localhost';
++//$db['default']['username'] = 'admin';
++//$db['default']['port'] = '3306';
+ 
+ $db['default']['hostname'] = 'iovxcejfybbh.rds.sae.sina.com.cn';
+ $db['default']['hostname_s'] = 'ujnahdinffnj.rds.sae.sina.com.cn';
++$db['default']['port'] = '10542';
+ $db['default']['username'] = 'admin';
+ $db['default']['password'] = 'passw0rd';
+ $db['default']['database'] = 'deco_dev' ;
+@@ -64,13 +18,7 @@
+ $db['default']['pconnect'] = TRUE;
+ $db['default']['db_debug'] = TRUE;
+ $db['default']['cache_on'] = FALSE;
+-//"storage" or "memcache"
+ $db['default']['cache_method'] = 'memcache';
+ $db['default']['cachedir'] = "sqlcache";
+ $db['default']['char_set'] = "utf8";
+ $db['default']['dbcollat'] = "utf8_general_ci";
+-$db['default']['port'] = '10542';
+-
+-
+-/* End of file database.php */
+-/* Location: ./system/application/config/database.php */
+\ No newline at end of file
