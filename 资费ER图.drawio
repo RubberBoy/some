@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T03:20:06.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VFjWF0jLNeIS3qlLqqay" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-09T03:21:41.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y-1Xfjr75us3X5WBUXZs" version="20.2.3" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="旧资费">
     <mxGraphModel dx="1510" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" background="#F4F1DE" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -764,7 +764,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vR-RLjUe8XXjXwcaN6La" name="新资费">
-    <mxGraphModel dx="2013" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1944" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1070,7 +1070,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-71" value="商家合同基础费项表&#xa;vender_base_fee" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1100" width="400" height="350" as="geometry" />
+          <mxGeometry x="1100" y="1040" width="400" height="350" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
           <mxGeometry y="50" width="400" height="30" as="geometry" />
@@ -1271,7 +1271,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-118" value="商家资费表&#xa;vender_fee_custom_fee_config" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="1100" width="510" height="420" as="geometry" />
+          <mxGeometry x="1610" y="1040" width="510" height="420" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
           <mxGeometry y="50" width="510" height="30" as="geometry" />
@@ -1701,7 +1701,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-216" value="平台标准资费配置表&#xa;vender_fee_standard_fee_config" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="530" width="510" height="410" as="geometry" />
+          <mxGeometry x="1610" y="530" width="510" height="410" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-217" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
           <mxGeometry y="50" width="510" height="30" as="geometry" />
@@ -1860,7 +1860,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-253" value="商家基础费项流程表&#xa;vender_flow_fee" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1100" width="530" height="470" as="geometry" />
+          <mxGeometry x="430" y="1040" width="530" height="470" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-254" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
           <mxGeometry y="50" width="530" height="30" as="geometry" />
