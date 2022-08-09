@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T06:01:52.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="52QU933G3Sg9eh65vqPE" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-09T06:31:56.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="U9Ls_VebNcZSrwQI4N_1" version="20.2.3" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="旧资费">
     <mxGraphModel dx="1510" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" background="#F4F1DE" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -791,12 +791,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vR-RLjUe8XXjXwcaN6La" name="新资费">
-    <mxGraphModel dx="1678" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2800" pageHeight="2000" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1442" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2800" pageHeight="2000" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aSpGgk3kDqBmIa8BCO-6-5" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Menlo; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;三费基础配置&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;dashPattern=1 1;sketch=0;fontFamily=Menlo;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSpGgk3kDqBmIa8BCO-6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;dashPattern=1 1;sketch=0;fontFamily=Menlo;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="400" y="740" width="2170" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="aSpGgk3kDqBmIa8BCO-6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;dashPattern=1 1;sketch=0;fontFamily=Menlo;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="2160" height="570" as="geometry" />
+        </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-1" value="资费批量导入任务&#xa;security_deposit_import" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="930" y="1300" width="380" height="325" as="geometry" />
+          <mxGeometry x="990" y="1400" width="380" height="325" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
           <mxGeometry y="50" width="380" height="30" as="geometry" />
@@ -916,7 +925,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-29" value="平台质保金规则主表&#xa;security_deposit_rule" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="170" width="290" height="290" as="geometry">
+          <mxGeometry x="2200" y="120" width="290" height="290" as="geometry">
             <mxRectangle x="2220" y="530" width="220" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1025,7 +1034,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-54" value="平台质保金规则子表&#xa;security_deposit_rule_item" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="490" width="290" height="200" as="geometry">
+          <mxGeometry x="2200" y="430" width="290" height="200" as="geometry">
             <mxRectangle x="2510" y="530" width="260" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1101,7 +1110,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-71" value="商家合同基础费项表&#xa;vender_base_fee" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="750" width="400" height="350" as="geometry" />
+          <mxGeometry x="1080" y="790" width="400" height="350" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
           <mxGeometry y="50" width="400" height="30" as="geometry" />
@@ -1234,7 +1243,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-102" value="类目可见&#xa;vender_fee_category_open_status" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1320" width="310" height="200" as="geometry" />
+          <mxGeometry x="470" y="1400" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-102">
           <mxGeometry y="50" width="310" height="30" as="geometry" />
@@ -1302,7 +1311,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-118" value="商家资费表&#xa;vender_fee_custom_fee_config" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="750" width="510" height="420" as="geometry" />
+          <mxGeometry x="1590" y="790" width="510" height="420" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
           <mxGeometry y="50" width="510" height="30" as="geometry" />
@@ -1585,8 +1594,8 @@
             <mxPoint x="1010" y="300" as="sourcePoint" />
             <mxPoint x="1110" y="200" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="370" y="235" />
-              <mxPoint x="370" y="1415" />
+              <mxPoint x="360" y="235" />
+              <mxPoint x="360" y="1495" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1891,7 +1900,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-253" value="商家基础费项流程表&#xa;vender_flow_fee" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="440" y="750" width="530" height="470" as="geometry" />
+          <mxGeometry x="440" y="790" width="530" height="470" as="geometry" />
         </mxCell>
         <mxCell id="VB_joMOIs_2WcejUTArv-254" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
           <mxGeometry y="50" width="530" height="30" as="geometry" />
@@ -2098,6 +2107,9 @@
               <mxPoint x="1530" y="890" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aSpGgk3kDqBmIa8BCO-6-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Menlo; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;商家资费&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;dashPattern=1 1;sketch=0;fontFamily=Menlo;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="230" y="890" width="125" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
