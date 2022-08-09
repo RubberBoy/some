@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T01:45:18.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="K9oT3epxrrzDFeDgJ7bj" version="20.2.3" type="github">
-  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2066" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+<mxfile host="app.diagrams.net" modified="2022-08-09T02:07:47.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ikbPpUpUY1Di1Mbbyvcj" version="20.2.3" type="github" pages="2">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="旧资费">
+    <mxGraphModel dx="1298" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -758,6 +758,1292 @@
         <mxCell id="xyWoqgFaUoAT4aClkVea-232" value="charge_type       费用类型" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="xyWoqgFaUoAT4aClkVea-230">
           <mxGeometry x="30" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vR-RLjUe8XXjXwcaN6La" name="新资费">
+    <mxGraphModel dx="1298" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VB_joMOIs_2WcejUTArv-1" value="资费批量导入任务&#xa;security_deposit_import" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="330" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="50" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-3" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-4" value="ID" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-2">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-5" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="80" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-6" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-5">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-7" value="file_name             导入文件名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontFamily=Menlo;fontSize=14;fontStyle=0" vertex="1" parent="VB_joMOIs_2WcejUTArv-5">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="110" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-8">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-10" value="import_token          导入文件jss标识" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;fontStyle=0" vertex="1" parent="VB_joMOIs_2WcejUTArv-8">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="140" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-11">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-13" value="approval_info_token   审批信息jss标识" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-11">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="170" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-15" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-14">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-16" value="export_token          导出文件jss标识" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-14">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="200" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-18" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-17">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-19" value="import_file_type      导入文件类型" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-17">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="230" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-21" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-20">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-22" value="status                上传执行状态" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-20">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="260" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-24" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-23">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-25" value="success_count         导入数据成功数" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-23">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-1">
+          <mxGeometry y="290" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-27" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-26">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-28" value="failure_count         导入数据失败数" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-26">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-29" value="平台质保金规则主表&#xa;security_deposit_rule" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="50" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-31" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-30">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-32" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-30">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="80" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-34" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-33">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-35" value="biz_id       业务模式ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-33">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="110" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-37" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-36">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-38" value="effect_date  生效时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-36">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="140" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-40" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-39">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-41" value="cate_id      末级类目ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-39">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="170" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-43" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-42">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-44" value="currency     货币标识" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-42">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="200" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-46" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-45">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-47" value="cate1_id     一级类目ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-45">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="230" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-49" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-48">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-50" value="cate2_id     二级类目ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-48">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-29">
+          <mxGeometry y="260" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-52" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-51">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-53" value="cate3_id     三级类目ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-51">
+          <mxGeometry x="30" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-54" value="平台质保金规则子表&#xa;security_deposit_rule_item" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="970" y="70" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-55" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-54">
+          <mxGeometry y="50" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-56" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-55">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-57" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-55">
+          <mxGeometry x="30" width="260" height="30" as="geometry">
+            <mxRectangle width="260" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-54">
+          <mxGeometry y="80" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-59" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-58">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-60" value="rule_id    规则表主键" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-58">
+          <mxGeometry x="30" width="260" height="30" as="geometry">
+            <mxRectangle width="260" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-61" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-54">
+          <mxGeometry y="110" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-62" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-61">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-63" value="level      阶梯档位" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-61">
+          <mxGeometry x="30" width="260" height="30" as="geometry">
+            <mxRectangle width="260" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-64" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-54">
+          <mxGeometry y="140" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-65" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-64">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-66" value="order_gmv  档位GMV销阈值" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-64">
+          <mxGeometry x="30" width="260" height="30" as="geometry">
+            <mxRectangle width="260" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-67" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-54">
+          <mxGeometry y="170" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-68" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-67">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-69" value="amount     档位质保金总额度" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-67">
+          <mxGeometry x="30" width="260" height="30" as="geometry">
+            <mxRectangle width="260" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-70" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERoneToMany;fontFamily=Menlo;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VB_joMOIs_2WcejUTArv-30" target="VB_joMOIs_2WcejUTArv-58">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="950" y="430" as="sourcePoint" />
+            <mxPoint x="1050" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-71" value="商家合同基础费项表&#xa;vender_base_fee" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="450" width="400" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="50" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-73" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-72">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-74" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-72">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-75" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="80" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-76" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-75">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-77" value="vender_id     商家id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-75">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-78" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="110" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-79" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-78">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-80" value="ref_id        入驻id或续签id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-78">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-81" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="140" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-82" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-81">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-83" value="contract_id   合同id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-81">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="170" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-85" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-84">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-86" value="std_flag      标准标识[1:标准 2:特殊]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-84">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-87" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="200" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-88" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-87">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-89" value="fee_source    费项来源[1:入驻 30:续签]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-87">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-90" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="230" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-91" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-90">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-92" value="fee_type      费项类型[2:平台使用费 3:质保金]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-90">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-93" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="260" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-94" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-93">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-95" value="amount        费项金额" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-93">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-96" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="290" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-97" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-96">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-98" value="start_date    生效开始日期" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-96">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-71">
+          <mxGeometry y="320" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-100" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-99">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-101" value="end_date      生效结束日期" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-99">
+          <mxGeometry x="30" width="370" height="30" as="geometry">
+            <mxRectangle width="370" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-102" value="类目可见&#xa;vender_fee_category_open_status" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1570" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-102">
+          <mxGeometry y="50" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-104" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-103">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-105" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-103">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-106" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-102">
+          <mxGeometry y="80" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-107" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-106">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-108" value="fee_mode_id    资费模式Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-106">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-109" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-102">
+          <mxGeometry y="110" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-110" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-109">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-111" value="category_id    类目Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-109">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-112" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-102">
+          <mxGeometry y="140" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-113" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-112">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-114" value="open_status    开放状态" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-112">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-115" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-102">
+          <mxGeometry y="170" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-116" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-115">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-117" value="effect_time    生效时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-115">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-118" value="商家资费表&#xa;vender_fee_custom_fee_config" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1120" width="510" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="50" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-120" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-119">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-121" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-119">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-122" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="80" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-123" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-122">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-124" value="vender_id           商家Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-122">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="110" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-126" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-125">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-127" value="dimension_type      维度类型[0:通用 1:类目]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-125">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-128" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="140" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-129" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-128">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-130" value="dimension_id        维度Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-128">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-131" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="170" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-132" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-131">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-133" value="fee_template_id     模板ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-131">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="200" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-135" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-134">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-136" value="std_flag            标准标识[1:标准 2:特殊]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-134">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-137" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="230" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-138" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-137">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-139" value="fee_item_type       资费项类型[1:扣点 2:平台费 3:质保金 ...]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-137">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-140" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="260" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-141" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-140">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-142" value="fee_item_value      资费值" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-140">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-143" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="290" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-144" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-143">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-145" value="effect_start_time   生效开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-143">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-146" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="320" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-147" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-146">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-148" value="effect_end_time     生效结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-146">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-149" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="350" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-150" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-149">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-151" value="source_type         数据类型[1:合同]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-149">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-152" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-118">
+          <mxGeometry y="380" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-153" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-152">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-154" value="source_id           合同Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-152">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-155" value="商家资费模式&#xa;vender_fee_mode" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1120" width="420" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-156" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="50" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-157" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-156">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-158" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-156">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-159" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="80" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-160" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-159">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-161" value="name                  模式名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-159">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-162" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="110" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-163" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-162">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-164" value="type                  资费的场景[1:基础 2:渠道]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-162">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-165" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="140" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-166" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-165">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-167" value="vender_col_type       商家合作模式" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-165">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-168" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="170" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-169" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-168">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-170" value="vender_biz_type       商家业务类型" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-168">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-171" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="200" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-172" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-171">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-173" value="vender_biz_type_lv1   商家业务模式1级" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-171">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-174" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="230" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-175" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-174">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-176" value="vender_biz_type_lv2   商家业务模式2级" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-174">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-177" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="260" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-178" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-177">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-179" value="fee_channel           资费渠道(场景)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-177">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-180" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-155">
+          <mxGeometry y="290" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-181" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-180">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-182" value="scene_desc            场景描述" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-180">
+          <mxGeometry x="30" width="390" height="30" as="geometry">
+            <mxRectangle width="390" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-183" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERoneToMany;fontFamily=Menlo;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VB_joMOIs_2WcejUTArv-156" target="VB_joMOIs_2WcejUTArv-106">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1030" y="650" as="sourcePoint" />
+            <mxPoint x="1130" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-184" value="资费模板&#xa;vender_fee_template" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="945" y="1120" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-185" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-184">
+          <mxGeometry y="50" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-186" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-185">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-187" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-185">
+          <mxGeometry x="30" width="310" height="30" as="geometry">
+            <mxRectangle width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-188" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-184">
+          <mxGeometry y="80" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-189" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-188">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-190" value="name                  模板名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-188">
+          <mxGeometry x="30" width="310" height="30" as="geometry">
+            <mxRectangle width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-191" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-184">
+          <mxGeometry y="110" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-192" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-191">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-193" value="fee_rule_id           资费规则Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-191">
+          <mxGeometry x="30" width="310" height="30" as="geometry">
+            <mxRectangle width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-194" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-184">
+          <mxGeometry y="140" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-195" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-194">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-196" value="fee_rule_start_value  资费规则起始值" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-194">
+          <mxGeometry x="30" width="310" height="30" as="geometry">
+            <mxRectangle width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-197" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-184">
+          <mxGeometry y="170" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-198" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-197">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-199" value="effect_start_time     生效开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-197">
+          <mxGeometry x="30" width="310" height="30" as="geometry">
+            <mxRectangle width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-200" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-184">
+          <mxGeometry y="200" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-201" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-200">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-202" value="effect_end_time       生效截止时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-200">
+          <mxGeometry x="30" width="310" height="30" as="geometry">
+            <mxRectangle width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-203" value="资费模式及模板关系&#xa;vender_fee_mode_template_relaction" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1120" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-204" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-203">
+          <mxGeometry y="50" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-205" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-204">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-206" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-204">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-207" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-203">
+          <mxGeometry y="80" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-208" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-207">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-209" value="fee_mode_id      资费模式id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-207">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-210" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-203">
+          <mxGeometry y="110" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-211" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-210">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-212" value="fee_template_id  资费模板id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-210">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-213" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERoneToMany;fontFamily=Menlo;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="VB_joMOIs_2WcejUTArv-156" target="VB_joMOIs_2WcejUTArv-207">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1170" y="980" as="sourcePoint" />
+            <mxPoint x="1200" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-214" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERoneToMany;fontFamily=Menlo;curved=1;exitX=0;exitY=0.733;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="VB_joMOIs_2WcejUTArv-185" target="VB_joMOIs_2WcejUTArv-210">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1150" y="1220" as="sourcePoint" />
+            <mxPoint x="1250" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-215" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERoneToMany;fontFamily=Menlo;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VB_joMOIs_2WcejUTArv-185" target="VB_joMOIs_2WcejUTArv-131">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="780" y="1380" as="sourcePoint" />
+            <mxPoint x="880" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-216" value="平台标准资费配置表&#xa;vender_fee_standard_fee_config" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1580" width="510" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-217" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="50" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-218" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-217">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-219" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-217">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-220" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="80" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-221" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-220">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-222" value="dimension_type      维度类型[0:通用 1:类目]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-220">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-223" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="110" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-224" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-223">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-225" value="dimension_id        维度Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-223">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-226" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="140" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-227" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-226">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-228" value="dimension_value     资费维度的value值" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-226">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-229" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="170" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-230" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-229">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-231" value="fee_template_id     模板ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-229">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-232" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="200" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-233" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-232">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-234" value="fee_item_type       资费项类型[1:扣点 2:平台费 3:质保金 ...]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-232">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-235" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="230" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-236" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-235">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-237" value="fee_item_value      资费值" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-235">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-238" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="260" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-239" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-238">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-240" value="effect_time         生效开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-238">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-241" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="290" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-242" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-241">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-243" value="effect_end_time     生效结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-241">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-244" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="320" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-245" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-244">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-246" value="source_type         数据类型[1:模板版本管理]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-244">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-247" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="350" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-248" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-247">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-249" value="source_id           来源对应的Id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-247">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-250" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-216">
+          <mxGeometry y="380" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-251" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-250">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-252" value="version_id          资费配置对应版本" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-250">
+          <mxGeometry x="30" width="480" height="30" as="geometry">
+            <mxRectangle width="480" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-253" value="商家基础费项流程表&#xa;vender_flow_fee" style="shape=table;startSize=50;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="450" width="530" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-254" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="50" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-255" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-254">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-256" value="ID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-254">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-257" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="80" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-258" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-257">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-259" value="vender_id         商家id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-257">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-260" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="110" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-261" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-260">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-262" value="ref_id            入驻id或续签id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-260">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-263" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="140" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-264" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-263">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-265" value="contract_id       合同id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-263">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-266" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="170" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-267" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-266">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-268" value="fee_scope         费项维度类型[1:类目 2:商家]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-266">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-269" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="200" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-270" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-269">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-271" value="fee_dimension_id  维度ID(类目ID)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-269">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-272" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="230" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-273" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-272">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-274" value="fee_type          费项类型[1:扣点 2:平台费 3:质保金]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-272">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-275" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="260" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-276" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-275">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-277" value="fee_amount        费项金额, 单位:分" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-275">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-278" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="290" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-279" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-278">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-280" value="fee_std_flag      标准标识[1:标准 2:特殊]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-278">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-281" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="320" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-282" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-281">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-283" value="fee_source        费项来源[1:入驻 2:运营中 3:续签]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-281">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-284" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="350" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-285" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-284">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-286" value="flow_node         流程节点[1:合同在途 2:合同作废 3:合同签署成功]" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-284">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-287" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="380" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-288" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-287">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-289" value="sign_date         合同签署日期" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-287">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-290" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="410" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-291" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-290">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-292" value="start_date        合同开始日期" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-290">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-293" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-253">
+          <mxGeometry y="440" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-294" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-293">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-295" value="end_date          合同结束日期" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Menlo;fontSize=14;" vertex="1" parent="VB_joMOIs_2WcejUTArv-293">
+          <mxGeometry x="30" width="500" height="30" as="geometry">
+            <mxRectangle width="500" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VB_joMOIs_2WcejUTArv-296" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERoneToMany;fontFamily=Menlo;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VB_joMOIs_2WcejUTArv-185" target="VB_joMOIs_2WcejUTArv-229">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660" y="990" as="sourcePoint" />
+            <mxPoint x="760" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
