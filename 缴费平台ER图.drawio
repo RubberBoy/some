@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T10:54:46.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kArkhu4XY0irTmqvOOyn" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T01:54:38.264Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xz7EKv9wNjQjdwNYLqlz" version="20.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1746" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="3CExHOjW3m0wOXi1z2jL-25" value="资费模板识别规则&#xa;feeModeRule" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;" vertex="1" parent="1">
           <mxGeometry x="80" y="350" width="410" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-26" value="+feeModeId    模板ID&#xa;+serviceType  使用场景(1:商家识别 2:订单渠道识别 &#xa;3:业务身份识别)&#xa;+expression   匹配公式&#xa;+weight       权重&#xa;+hitIntercept 命中中断" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-25">
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-26" value="+feeModeId    模板ID&#xa;+serviceType  使用场景(1:商家识别 2:订单渠道识别 &#xa;3:业务身份识别)&#xa;+expression   匹配公式" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-25">
           <mxGeometry y="45" width="410" height="155" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-27" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontFamily=Menlo;exitX=0;exitY=0.136;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-22" target="3CExHOjW3m0wOXi1z2jL-26">
@@ -22,7 +22,7 @@
             <mxPoint x="190" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-28" value="费项配置&#xa;feeConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-28" value="模板费项缴费配置&#xa;feeConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="610" y="350" width="480" height="580" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-29" value="+id&#xa;+feeMode          资费模板&#xa;+feeCode          费项&#xa;&#xa;基础设置&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;+supportStd       是否支持标准资费&#xa;+stdDimensionType 标准资费维度类型(三级类目/品牌+类目)&#xa;+supportCustom    是否支持特殊资费&#xa;+cusDimensionType 特殊资费维度类型(商家/商家+类目)&#xa;+                 收费模式(按比例/按固定金额)&#xa;&#xa;周期缴费设置&#xa;+                 提前缴费天数(*天)&#xa;+                 缴费周期类型(固定周期/可选周期)&#xa;+                 固-缴费周期单位(按天/按标准月/按自然月)&#xa;+                 固-缴费周期(*天/*月)&#xa;+                 可-周期选择列表(季度/半年/年)&#xa;&#xa;&#xa;公式链接配置&#xa;+                 是否展示费用公示链接&#xa;+                 公示链接&#xa;&#xa;触达配置&#xa;+                 &#xa;&#xa;&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-28">
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-40" value="+id&#xa;+venderId  商家ID&#xa;+feeModeId 模板ID - 一店多模&#xa;+feeCode   费项&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;&#xa;维度&#xa;+categoryId   类目ID&#xa;+品牌&#xa;+sku&#xa;&#xa;值&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-39">
           <mxGeometry y="45" width="410" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-41" value="费项-模板匹配范围&#xa;feeCodeMatchModeRange" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#000000;fontFamily=Menlo;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="50" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-42" value="+feeCodeId      费项ID&#xa;+feeModeId      模板ID&#xa;+weight         权重&#xa;+interrupt      中断策略" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-41">
+          <mxGeometry y="50" width="260" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
