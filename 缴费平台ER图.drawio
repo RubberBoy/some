@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T14:59:04.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rFR4j5y8ZYXX2U6O24ZX" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T15:00:24.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RuSKGe2wXxSjmpMsRjiV" version="20.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1655" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -11,16 +11,10 @@
           <mxGeometry y="45" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-25" value="资费模板识别规则&#xa;feeModeRule" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;" vertex="1" parent="1">
-          <mxGeometry x="40" y="290" width="410" height="200" as="geometry" />
+          <mxGeometry x="30" y="290" width="480" height="200" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-26" value="+feeModeId    资费模板ID&#xa;+serviceType  使用场景(1:商家识别 2:订单渠道识别 &#xa;3:业务身份识别)&#xa;+expression   匹配公式" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-25">
-          <mxGeometry y="45" width="410" height="155" as="geometry" />
-        </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-27" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;fontFamily=Menlo;exitX=0;exitY=0.136;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-22" target="3CExHOjW3m0wOXi1z2jL-26">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="90" y="360" as="sourcePoint" />
-            <mxPoint x="190" y="260" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry y="45" width="480" height="155" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-28" value="费用缴纳配置&#xa;feeConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="30" y="510" width="480" height="520" as="geometry" />
@@ -35,13 +29,13 @@
           <mxGeometry y="45" width="310" height="142.5" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-37" value="标准资费(四费)&#xa;feeRuleConfigDetail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="340" width="510" height="350" as="geometry" />
+          <mxGeometry x="1100" y="290" width="510" height="350" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-38" value="+id&#xa;+ruleConfigId     规则Id&#xa;+feeCode          费项&#xa;+ruleType         规则类型(平台使用费费用标准\保证金限制条件)&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;&#xa;维度&#xa;+feeMode               资费模板ID&#xa;+dimensionCategoryId   类目ID&#xa;+dimensionBranId       品牌ID&#xa;+dimensionSkuId        skuId&#xa;&#xa;指标&#xa;+targetValue      指标值" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-37">
           <mxGeometry y="45" width="510" height="305" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-39" value="商家费项缴费配置明细(商家资费)&#xa;customFeeConfigDetail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;arcSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="740" width="510" height="330" as="geometry" />
+          <mxGeometry x="1100" y="690" width="510" height="330" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-40" value="+id&#xa;+venderId         商家ID&#xa;+feeCode          费项&#xa;+ruleType         规则类型(平台使用费费用标准\保证金限制条件)&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;&#xa;维度&#xa;+feeModeId             模板ID&#xa;+dimensionCategoryId   类目ID&#xa;+dimensionBranId       品牌ID&#xa;+dimensionSkuId        skuId&#xa;&#xa;指标&#xa;+targetValue      指标值&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-39">
           <mxGeometry y="45" width="510" height="285" as="geometry" />
@@ -59,7 +53,7 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-50" value="维度规则配置&#xa;feeRuleConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="560" y="340" width="480" height="280" as="geometry" />
+          <mxGeometry x="570" y="290" width="480" height="280" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-51" value="+id&#xa;+feeCode      费项&#xa;+ruleType     规则类型(平台使用费费用标准\保证金限制条件)&#xa;+feeMode      资费模板ID&#xa;&#xa;+supportStd       是否支持标准规则&#xa;+stdDimensionType 标准规则维度类型(三级类目/品牌+类目)&#xa;+supportCustom    是否支持特殊规则&#xa;+cusDimensionType 特殊规则维度类型(商家/商家+类目)&#xa;&#xa;&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-50">
           <mxGeometry y="45" width="480" height="235" as="geometry" />
