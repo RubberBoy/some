@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T15:27:32.356Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yb9fY937EJgo2rlj0QAL" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T15:40:54.801Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9QuTxcJnOhOwgyqxGh-a" version="20.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1655" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -17,24 +17,27 @@
           <mxGeometry y="45" width="410" height="155" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-28" value="费用缴纳配置&#xa;feeConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="1090" width="480" height="520" as="geometry" />
+          <mxGeometry x="1035" y="950" width="480" height="520" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-29" value="+id&#xa;+feeCode          费项&#xa;+feeMode          资费模板ID&#xa;&#xa;基础设置&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;+                 收费模式(按比例/按固定金额)&#xa;&#xa;周期缴费设置&#xa;+                 提前缴费天数(*天)&#xa;+                 缴费周期类型(固定周期/可选周期)&#xa;+                 固-缴费周期单位(按天/按标准月/按自然月)&#xa;+                 固-缴费周期(*天/*月)&#xa;+                 可-周期选择列表(季度/半年/年)&#xa;&#xa;&#xa;公式链接配置&#xa;+                 是否展示费用公示链接&#xa;+                 公示链接&#xa;&#xa;触达配置&#xa;+                 &#xa;&#xa;&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-28">
           <mxGeometry y="45" width="480" height="475" as="geometry" />
         </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-30" target="3CExHOjW3m0wOXi1z2jL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-30" value="费项&#xa;feeCode" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;" vertex="1" parent="1">
           <mxGeometry x="620" y="410" width="310" height="187.5" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-31" value="+id        费项ID&#xa;+feeCode   费项Code&#xa;+rfCode    计费中台费项code&#xa;+name      费项名称&#xa;+withOrder 是否随单&#xa;+          是否周期性缴费" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-30">
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-31" value="+id        费项ID&#xa;+feeCode   费项Code&#xa;+rfCode    计费中台费项code&#xa;+name      费项名称&#xa;+withOrder 是否随单&#xa;+isPeriod  是否周期性缴费" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-30">
           <mxGeometry y="45" width="310" height="142.5" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-37" value="标准资费(四费)&#xa;feeRuleConfigDetail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;" vertex="1" parent="1">
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-37" value="维度规则明细&#xa;feeRuleConfigDetail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;" vertex="1" parent="1">
           <mxGeometry x="1610" y="310" width="510" height="350" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-38" value="+id&#xa;+ruleConfigId     规则Id&#xa;+feeCode          费项&#xa;+ruleType         规则类型(平台使用费费用标准\保证金限制条件)&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;&#xa;维度&#xa;+feeMode               资费模板ID&#xa;+dimensionCategoryId   类目ID&#xa;+dimensionBranId       品牌ID&#xa;+dimensionSkuId        skuId&#xa;&#xa;指标&#xa;+targetValue      指标值" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-37">
           <mxGeometry y="45" width="510" height="305" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-39" value="商家费项缴费配置明细(商家资费)&#xa;customFeeConfigDetail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;arcSize=19;" vertex="1" parent="1">
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-39" value="商家维度规则明细&#xa;venderFeeRuleConfigDetail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;arcSize=19;" vertex="1" parent="1">
           <mxGeometry x="1610" y="710" width="510" height="330" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-40" value="+id&#xa;+venderId         商家ID&#xa;+feeCode          费项&#xa;+ruleType         规则类型(平台使用费费用标准\保证金限制条件)&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;&#xa;维度&#xa;+feeModeId             模板ID&#xa;+dimensionCategoryId   类目ID&#xa;+dimensionBranId       品牌ID&#xa;+dimensionSkuId        skuId&#xa;&#xa;指标&#xa;+targetValue      指标值&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-39">
@@ -47,13 +50,13 @@
           <mxGeometry y="50" width="310" height="160" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-50" value="维度规则配置&#xa;feeRuleConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="510" width="480" height="280" as="geometry" />
+          <mxGeometry x="1030" y="540" width="480" height="280" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-51" value="+id&#xa;+feeCode      费项&#xa;+ruleType     规则类型(平台使用费费用标准\保证金限制条件)&#xa;+feeMode      资费模板ID&#xa;&#xa;+supportStd       是否支持标准规则&#xa;+stdDimensionType 标准规则维度类型(三级类目/品牌+类目)&#xa;+supportCustom    是否支持特殊规则&#xa;+cusDimensionType 特殊规则维度类型(商家/商家+类目)&#xa;&#xa;&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-50">
           <mxGeometry y="45" width="480" height="235" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-52" value="缴费单" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#000000;fontFamily=Menlo;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1200" width="220" height="240" as="geometry" />
+          <mxGeometry x="560" y="1180" width="220" height="240" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-53" value="+id    &#xa;+venderId      商家ID&#xa;+type          单据类型&#xa;+subType       子单类型&#xa;+payType       支付类型&#xa;+money         单据金额&#xa;+realpayMoney  实际支付金额&#xa;+monthlyFee    缴费标准&#xa;+status        状态&#xa;+checkStatus   审核状态&#xa;+reason        单据审核理由&#xa;+uuid          收付费单据ID&#xa;+remark        备注" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-52">
           <mxGeometry y="30" width="220" height="210" as="geometry" />
@@ -63,6 +66,30 @@
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-57" value="+id&#xa;+venderId    商家ID&#xa;+            试运营资格&#xa;+            试运营时长&#xa;+            试运营开始时间&#xa;+            试运营限制状态" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-56">
           <mxGeometry y="30" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-31" target="3CExHOjW3m0wOXi1z2jL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.305;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-22" target="3CExHOjW3m0wOXi1z2jL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-22" target="3CExHOjW3m0wOXi1z2jL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-31" target="3CExHOjW3m0wOXi1z2jL-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-22" target="3CExHOjW3m0wOXi1z2jL-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-51" target="3CExHOjW3m0wOXi1z2jL-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.02;entryY=0.263;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-51" target="3CExHOjW3m0wOXi1z2jL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-22" target="3CExHOjW3m0wOXi1z2jL-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
