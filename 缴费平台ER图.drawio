@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T15:54:49.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eX2D-TTN-GDnAcHlPqdz" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T16:00:25.818Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_VDPEcIPsxSlTv6JQl6G" version="20.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1455" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -70,11 +70,11 @@
         <mxCell id="3CExHOjW3m0wOXi1z2jL-53" value="+id    &#xa;+venderId         商家ID&#xa;+type             单据类型&#xa;+subType          子单类型&#xa;+payType          支付类型&#xa;+money            单据金额&#xa;+realpayMoney     实际支付金额&#xa;+monthlyFee       缴费标准&#xa;+status           状态&#xa;+checkStatus      审核状态&#xa;+reason           单据审核理由&#xa;+uuid             收付费单据ID&#xa;+remark           备注" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-52">
           <mxGeometry y="50" width="320" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-56" value="试运营商家" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#000000;fontFamily=Menlo;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1700" width="220" height="200" as="geometry" />
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-56" value="试运营商家&#xa;qualificationVender" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#000000;fontFamily=Menlo;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1720" width="350" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-57" value="+id&#xa;+venderId    商家ID&#xa;+            试运营资格&#xa;+            试运营时长&#xa;+            试运营开始时间&#xa;+            试运营限制状态" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-56">
-          <mxGeometry y="30" width="220" height="170" as="geometry" />
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-57" value="+id&#xa;+venderId            商家ID&#xa;+quaFlag             试运营资格&#xa;+quaDays             试运营天数&#xa;+quaStartDate        试运营开始时间&#xa;+quaLimitStatus      试运营限制状态&#xa;+quaFlagCancelTime   试运营资格取消时间&#xa;+quaLimitCancelTime  试运营限制解除时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-56">
+          <mxGeometry y="50" width="350" height="200" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Menlo;fontSize=15;" edge="1" parent="1" source="3CExHOjW3m0wOXi1z2jL-31" target="3CExHOjW3m0wOXi1z2jL-42">
           <mxGeometry relative="1" as="geometry" />
