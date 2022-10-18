@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T16:00:25.818Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_VDPEcIPsxSlTv6JQl6G" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T16:01:29.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qX12RyNSO3rRFSZdyugo" version="20.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1455" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-79" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;fontFamily=Menlo;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1630" width="590" height="410" as="geometry" />
+        </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-76" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;fontFamily=Menlo;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="490" y="980" width="430" height="430" as="geometry" />
         </mxCell>
@@ -71,7 +74,7 @@
           <mxGeometry y="50" width="320" height="260" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-56" value="试运营商家&#xa;qualificationVender" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#000000;fontFamily=Menlo;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1720" width="350" height="250" as="geometry" />
+          <mxGeometry x="150" y="1720" width="350" height="250" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-57" value="+id&#xa;+venderId            商家ID&#xa;+quaFlag             试运营资格&#xa;+quaDays             试运营天数&#xa;+quaStartDate        试运营开始时间&#xa;+quaLimitStatus      试运营限制状态&#xa;+quaFlagCancelTime   试运营资格取消时间&#xa;+quaLimitCancelTime  试运营限制解除时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-56">
           <mxGeometry y="50" width="350" height="200" as="geometry" />
@@ -126,6 +129,9 @@
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-78" value="&lt;b&gt;缴费&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontFamily=Menlo;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="645" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-80" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;保证金&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontFamily=Menlo;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1650" width="95" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
