@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T16:07:32.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_MPEfDT3jr_j0KP2cOTm" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T16:20:10.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uBqxDo3HFzegJtJJ_Zg2" version="20.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2586" dy="1365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2198" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="3CExHOjW3m0wOXi1z2jL-50" value="维度规则配置&#xa;feeRuleConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1120" y="540" width="480" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-51" value="+id&#xa;+feeCode      费项&#xa;+ruleType     规则类型(平台使用费费用标准\保证金限制条件)&#xa;+feeMode      资费模板ID&#xa;&#xa;+supportStd       是否支持标准规则&#xa;+stdDimensionType 标准规则维度类型(三级类目/品牌+类目)&#xa;+supportCustom    是否支持特殊规则&#xa;+cusDimensionType 特殊规则维度类型(商家/商家+类目)&#xa;&#xa;&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-50">
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-51" value="+id&#xa;+feeCode      费项&#xa;+ruleType     规则类型(平台使用费费用标准\保证金限制条件)&#xa;+feeMode      资费模板ID&#xa;&#xa;+                 规则方案(系统规则\外部服务)&#xa;+supportStd       是否支持标准规则&#xa;+stdDimensionType 标准规则维度类型(三级类目/品牌+类目)&#xa;+supportCustom    是否支持特殊规则&#xa;+cusDimensionType 特殊规则维度类型(商家/商家+类目)&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-50">
           <mxGeometry y="45" width="480" height="235" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-52" value="缴费单&#xa;vender_payment_document" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#000000;fontFamily=Menlo;" vertex="1" parent="1">
