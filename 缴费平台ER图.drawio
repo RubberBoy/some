@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T13:07:09.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YaHuW45-OyodPxxJtRV8" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T13:08:08.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TR-or8HN2AJJYP2gnGXg" version="20.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1655" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -23,10 +23,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-28" value="费用缴纳配置&#xa;feeConfig" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="30" y="510" width="480" height="580" as="geometry" />
+          <mxGeometry x="30" y="510" width="480" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="3CExHOjW3m0wOXi1z2jL-29" value="+id&#xa;+feeMode          资费模板ID&#xa;+feeCode          费项&#xa;&#xa;基础设置&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;+                 收费模式(按比例/按固定金额)&#xa;&#xa;周期缴费设置&#xa;+                 提前缴费天数(*天)&#xa;+                 缴费周期类型(固定周期/可选周期)&#xa;+                 固-缴费周期单位(按天/按标准月/按自然月)&#xa;+                 固-缴费周期(*天/*月)&#xa;+                 可-周期选择列表(季度/半年/年)&#xa;&#xa;&#xa;公式链接配置&#xa;+                 是否展示费用公示链接&#xa;+                 公示链接&#xa;&#xa;触达配置&#xa;+                 &#xa;&#xa;&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-28">
-          <mxGeometry y="45" width="480" height="535" as="geometry" />
+        <mxCell id="3CExHOjW3m0wOXi1z2jL-29" value="+id&#xa;+feeCode          费项&#xa;+feeMode          资费模板ID&#xa;&#xa;基础设置&#xa;+effectStartTime  生效开始时间&#xa;+effectEndTime    生效截止时间&#xa;+                 收费模式(按比例/按固定金额)&#xa;&#xa;周期缴费设置&#xa;+                 提前缴费天数(*天)&#xa;+                 缴费周期类型(固定周期/可选周期)&#xa;+                 固-缴费周期单位(按天/按标准月/按自然月)&#xa;+                 固-缴费周期(*天/*月)&#xa;+                 可-周期选择列表(季度/半年/年)&#xa;&#xa;&#xa;公式链接配置&#xa;+                 是否展示费用公示链接&#xa;+                 公示链接&#xa;&#xa;触达配置&#xa;+                 &#xa;&#xa;&#xa;" style="align=left;strokeColor=#000000;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=Menlo;fontColor=#000000;" vertex="1" parent="3CExHOjW3m0wOXi1z2jL-28">
+          <mxGeometry y="45" width="480" height="475" as="geometry" />
         </mxCell>
         <mxCell id="3CExHOjW3m0wOXi1z2jL-30" value="费项&#xa;feeCode" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;rounded=1;fontSize=16;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Menlo;" vertex="1" parent="1">
           <mxGeometry x="630" y="32.5" width="310" height="190" as="geometry" />
